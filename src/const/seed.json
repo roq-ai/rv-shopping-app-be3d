@@ -1,0 +1,2322 @@
+[
+  {
+    "product": [
+      {
+        "id": "b9fc62e9-a5d6-4741-937e-540f8fb0871b",
+        "name": "Classic Black Dress",
+        "brand": "Fashionista",
+        "price": 81925,
+        "size": "S",
+        "color": "Black",
+        "created_at": "2023-08-28T14:45:42.601Z",
+        "updated_at": "2023-08-28T08:39:08.232Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "38b30761-77d2-4e0c-9d1b-2d7a32734846",
+        "name": "Cozy Knit Sweater",
+        "brand": "Warm & Cozy",
+        "price": 63231,
+        "size": "M",
+        "color": "Grey",
+        "created_at": "2023-08-28T17:45:30.200Z",
+        "updated_at": "2023-08-28T07:46:24.327Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "21bb872e-3b19-4cb4-bf4c-37ad45f34cf0",
+        "name": "Smartphone Case",
+        "brand": "TechGadgets",
+        "price": 71319,
+        "size": "L",
+        "color": "Blue",
+        "created_at": "2023-08-28T15:18:12.395Z",
+        "updated_at": "2023-08-29T04:46:30.642Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "92163b54-2176-421d-ad3e-af914367741e",
+        "name": "Hiking Boots",
+        "brand": "Outdoor Essentials",
+        "price": 36911,
+        "size": "XL",
+        "color": "Brown",
+        "created_at": "2023-08-28T06:23:56.816Z",
+        "updated_at": "2023-08-28T12:43:19.120Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "3cb4daa2-aa0a-4514-9576-c94e004b27f5",
+        "name": "Anti-Aging Serum",
+        "brand": "Youthful Glow",
+        "price": 79355,
+        "size": "One Size",
+        "color": "Red",
+        "created_at": "2023-08-28T12:47:15.731Z",
+        "updated_at": "2023-08-28T07:20:58.482Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "89235591-ed7a-41aa-b32d-914686ee8b53",
+        "name": "Mid-Season Sale",
+        "start_date": "2023-08-28T10:35:40.437Z",
+        "end_date": "2023-08-28T20:58:58.263Z",
+        "discount_percentage": 49887,
+        "created_at": "2023-08-29T02:59:36.331Z",
+        "updated_at": "2023-08-29T04:52:49.992Z",
+        "product_id": "92163b54-2176-421d-ad3e-af914367741e"
+      },
+      {
+        "id": "38864615-c59f-4e81-b037-df6fdf572298",
+        "name": "Flash Sale",
+        "start_date": "2023-08-29T04:00:46.398Z",
+        "end_date": "2023-08-28T16:57:11.562Z",
+        "discount_percentage": 93373,
+        "created_at": "2023-08-28T09:20:09.658Z",
+        "updated_at": "2023-08-28T13:42:53.307Z",
+        "product_id": "38b30761-77d2-4e0c-9d1b-2d7a32734846"
+      },
+      {
+        "id": "22d53728-ae1d-42da-a715-df3f49a9216b",
+        "name": "Clearance Sale",
+        "start_date": "2023-08-28T14:46:02.871Z",
+        "end_date": "2023-08-28T07:13:10.254Z",
+        "discount_percentage": 47878,
+        "created_at": "2023-08-28T23:49:14.351Z",
+        "updated_at": "2023-08-28T17:34:49.536Z",
+        "product_id": "3cb4daa2-aa0a-4514-9576-c94e004b27f5"
+      },
+      {
+        "id": "7eb2aed8-b312-4090-ba0a-f5811e5cbe67",
+        "name": "Holiday Sale",
+        "start_date": "2023-08-28T21:58:53.997Z",
+        "end_date": "2023-08-28T09:04:32.889Z",
+        "discount_percentage": 7147,
+        "created_at": "2023-08-29T03:40:06.853Z",
+        "updated_at": "2023-08-29T03:37:00.728Z",
+        "product_id": "b9fc62e9-a5d6-4741-937e-540f8fb0871b"
+      },
+      {
+        "id": "ef011bdd-364d-4789-8200-cd5c3c46cd34",
+        "name": "End of Year Sale",
+        "start_date": "2023-08-28T08:11:21.014Z",
+        "end_date": "2023-08-29T04:10:11.373Z",
+        "discount_percentage": 27354,
+        "created_at": "2023-08-28T18:03:38.755Z",
+        "updated_at": "2023-08-28T22:12:50.334Z",
+        "product_id": "38b30761-77d2-4e0c-9d1b-2d7a32734846"
+      }
+    ],
+    "cart": [
+      {
+        "id": "a0508987-6bf6-44f1-ad35-e2edf57c6a1f",
+        "created_at": "2023-08-29T00:12:54.702Z",
+        "updated_at": "2023-08-28T19:44:24.615Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e2d02a7-dbc3-4186-992f-4cb72bd7507e",
+        "created_at": "2023-08-28T19:53:08.239Z",
+        "updated_at": "2023-08-28T12:34:11.160Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3770323-9c85-44c4-b753-d97dc6333d1f",
+        "created_at": "2023-08-29T04:29:12.562Z",
+        "updated_at": "2023-08-29T04:06:22.304Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b1f4eb2-e259-449f-8ff9-fb7a60d39843",
+        "created_at": "2023-08-28T23:50:45.769Z",
+        "updated_at": "2023-08-28T13:46:58.786Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5020593c-bf74-428a-bc02-083217f8cdb1",
+        "created_at": "2023-08-28T21:28:54.759Z",
+        "updated_at": "2023-08-28T11:42:27.171Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "1949544b-1b01-4041-b199-14a9eb0ee530",
+        "quantity": 99634,
+        "created_at": "2023-08-28T21:49:29.265Z",
+        "updated_at": "2023-08-28T17:31:21.057Z",
+        "cart_id": "a0508987-6bf6-44f1-ad35-e2edf57c6a1f",
+        "product_id": "3cb4daa2-aa0a-4514-9576-c94e004b27f5"
+      },
+      {
+        "id": "155a362b-9ac2-451d-97ea-32cce33a8ec8",
+        "quantity": 64249,
+        "created_at": "2023-08-28T08:33:52.928Z",
+        "updated_at": "2023-08-28T09:45:26.189Z",
+        "cart_id": "9b1f4eb2-e259-449f-8ff9-fb7a60d39843",
+        "product_id": "21bb872e-3b19-4cb4-bf4c-37ad45f34cf0"
+      },
+      {
+        "id": "d65b7032-1818-42bb-984e-fd8adfc0b753",
+        "quantity": 84785,
+        "created_at": "2023-08-28T09:20:56.710Z",
+        "updated_at": "2023-08-29T04:07:24.894Z",
+        "cart_id": "6e2d02a7-dbc3-4186-992f-4cb72bd7507e",
+        "product_id": "21bb872e-3b19-4cb4-bf4c-37ad45f34cf0"
+      },
+      {
+        "id": "e5f5a27a-c8e7-47dd-b654-9ff372af7151",
+        "quantity": 34291,
+        "created_at": "2023-08-28T05:56:21.034Z",
+        "updated_at": "2023-08-29T04:08:34.366Z",
+        "cart_id": "a0508987-6bf6-44f1-ad35-e2edf57c6a1f",
+        "product_id": "38b30761-77d2-4e0c-9d1b-2d7a32734846"
+      },
+      {
+        "id": "5c8467d1-9fcc-44c1-a41a-398e9d897450",
+        "quantity": 39596,
+        "created_at": "2023-08-29T04:32:39.176Z",
+        "updated_at": "2023-08-28T09:09:25.498Z",
+        "cart_id": "5020593c-bf74-428a-bc02-083217f8cdb1",
+        "product_id": "b9fc62e9-a5d6-4741-937e-540f8fb0871b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d89113b-86ad-4f00-9146-a93fdfb50e39",
+        "email": "Shany_Tillman46@hotmail.com",
+        "firstName": "Ike",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7052273",
+        "tenantId": null
+      },
+      {
+        "reference": "cee3edd8-3a13-4cb5-8ed9-54059609e3fb",
+        "email": "Hershel_Powlowski@yahoo.com",
+        "firstName": "Jakayla",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93899959",
+        "tenantId": null
+      },
+      {
+        "reference": "01634cdc-c1bb-45ad-befa-3370084bd522",
+        "email": "Quincy_Kunde@yahoo.com",
+        "firstName": "Luther",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5288686",
+        "tenantId": null
+      },
+      {
+        "reference": "d1cbb4b3-9eb8-47c2-bc3a-ba9b9cd26495",
+        "email": "Justen_Bode@hotmail.com",
+        "firstName": "Neha",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85126254",
+        "tenantId": null
+      },
+      {
+        "reference": "a5b0d14c-30ec-4d5f-aafa-b9577357c4ea",
+        "email": "Monte.Von@hotmail.com",
+        "firstName": "Jana",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/866.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "5f2d7976-f402-4d56-aea1-1da0bce55b19",
+        "name": "Classic T-Shirt",
+        "brand": "ABC Company",
+        "price": 86421,
+        "size": "Small",
+        "color": "Black",
+        "created_at": "2023-08-28T23:34:44.688Z",
+        "updated_at": "2023-08-28T16:46:21.424Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "1462aa5a-ee4d-4de3-906a-c9d2c590515c",
+        "name": "Wireless Headphones",
+        "brand": "XZY Brand",
+        "price": 41218,
+        "size": "Medium",
+        "color": "White",
+        "created_at": "2023-08-29T03:23:28.841Z",
+        "updated_at": "2023-08-29T00:56:08.099Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "ad2e1819-1f04-4e9b-808e-8b508d49346d",
+        "name": "Cozy Throw Blanket",
+        "brand": "123 Corporation",
+        "price": 45919,
+        "size": "Large",
+        "color": "Blue",
+        "created_at": "2023-08-28T16:12:15.803Z",
+        "updated_at": "2023-08-29T00:24:17.390Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "eeea78b0-bd03-4f85-b365-e74b4f7b6513",
+        "name": "Luxury Skincare Set",
+        "brand": "Best Brands",
+        "price": 24089,
+        "size": "Extra Large",
+        "color": "Red",
+        "created_at": "2023-08-28T21:04:11.606Z",
+        "updated_at": "2023-08-28T10:46:38.650Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "c5a3fdbf-acdb-4752-981d-789046dff9bb",
+        "name": "Sneakers",
+        "brand": "Top Notch",
+        "price": 45539,
+        "size": "One Size",
+        "color": "Green",
+        "created_at": "2023-08-28T21:20:59.863Z",
+        "updated_at": "2023-08-29T05:14:36.339Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "6d665236-7cfa-42ae-bf7b-6a1d7decf584",
+        "name": "Summer Sale",
+        "start_date": "2023-08-28T19:41:40.659Z",
+        "end_date": "2023-08-28T07:49:36.457Z",
+        "discount_percentage": 91054,
+        "created_at": "2023-08-28T08:59:13.077Z",
+        "updated_at": "2023-08-28T13:34:19.362Z",
+        "product_id": "eeea78b0-bd03-4f85-b365-e74b4f7b6513"
+      },
+      {
+        "id": "e3e48b8e-4e2c-429b-802c-ff04c69f5242",
+        "name": "Holiday Discount",
+        "start_date": "2023-08-28T17:32:36.854Z",
+        "end_date": "2023-08-28T08:43:14.488Z",
+        "discount_percentage": 5845,
+        "created_at": "2023-08-28T18:13:41.721Z",
+        "updated_at": "2023-08-28T23:49:50.983Z",
+        "product_id": "1462aa5a-ee4d-4de3-906a-c9d2c590515c"
+      },
+      {
+        "id": "0ad15d37-469f-4e90-8525-b19652a1e0d1",
+        "name": "Clearance Event",
+        "start_date": "2023-08-28T17:52:51.652Z",
+        "end_date": "2023-08-28T08:48:01.477Z",
+        "discount_percentage": 39016,
+        "created_at": "2023-08-28T20:13:03.787Z",
+        "updated_at": "2023-08-28T15:13:47.220Z",
+        "product_id": "c5a3fdbf-acdb-4752-981d-789046dff9bb"
+      },
+      {
+        "id": "c7c95d8f-cf58-41dd-8778-63c2b53162e2",
+        "name": "Flash Sale",
+        "start_date": "2023-08-28T12:50:15.298Z",
+        "end_date": "2023-08-28T18:03:41.472Z",
+        "discount_percentage": 41315,
+        "created_at": "2023-08-29T00:46:49.064Z",
+        "updated_at": "2023-08-29T03:11:06.474Z",
+        "product_id": "ad2e1819-1f04-4e9b-808e-8b508d49346d"
+      },
+      {
+        "id": "31f33e55-215f-48ed-8f64-527e2bf7e23e",
+        "name": "Limited Time Offer",
+        "start_date": "2023-08-28T08:48:37.381Z",
+        "end_date": "2023-08-28T18:54:10.083Z",
+        "discount_percentage": 84301,
+        "created_at": "2023-08-28T07:17:10.890Z",
+        "updated_at": "2023-08-28T07:32:57.791Z",
+        "product_id": "5f2d7976-f402-4d56-aea1-1da0bce55b19"
+      }
+    ],
+    "cart": [
+      {
+        "id": "1b641af4-e79f-4d9a-b86b-b00b6fddd138",
+        "created_at": "2023-08-28T23:15:07.698Z",
+        "updated_at": "2023-08-29T01:58:15.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed131da5-3e5c-4c76-ab79-871fdee96066",
+        "created_at": "2023-08-28T06:27:15.511Z",
+        "updated_at": "2023-08-28T23:23:09.542Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78370adf-0469-4616-907d-561999ee961a",
+        "created_at": "2023-08-28T23:43:11.277Z",
+        "updated_at": "2023-08-28T16:46:44.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea5a0405-d6b5-42d4-afd7-6142e2ea992b",
+        "created_at": "2023-08-28T11:54:40.756Z",
+        "updated_at": "2023-08-28T21:05:09.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88fc2ec3-74ec-4b64-8749-9f0147295177",
+        "created_at": "2023-08-29T05:30:12.005Z",
+        "updated_at": "2023-08-28T22:49:59.154Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "218d03c0-1020-4f70-a8be-36b543e1bed4",
+        "quantity": 99620,
+        "created_at": "2023-08-28T14:48:58.179Z",
+        "updated_at": "2023-08-28T17:52:35.348Z",
+        "cart_id": "78370adf-0469-4616-907d-561999ee961a",
+        "product_id": "5f2d7976-f402-4d56-aea1-1da0bce55b19"
+      },
+      {
+        "id": "2484d222-4535-4caf-885c-11be14e4a2a2",
+        "quantity": 26235,
+        "created_at": "2023-08-28T18:41:00.265Z",
+        "updated_at": "2023-08-28T10:59:05.651Z",
+        "cart_id": "78370adf-0469-4616-907d-561999ee961a",
+        "product_id": "eeea78b0-bd03-4f85-b365-e74b4f7b6513"
+      },
+      {
+        "id": "e1cc92cc-39a0-4fd1-bfd5-8ecf4f5b4a4d",
+        "quantity": 50614,
+        "created_at": "2023-08-28T16:10:33.728Z",
+        "updated_at": "2023-08-28T22:46:29.069Z",
+        "cart_id": "ea5a0405-d6b5-42d4-afd7-6142e2ea992b",
+        "product_id": "eeea78b0-bd03-4f85-b365-e74b4f7b6513"
+      },
+      {
+        "id": "a79827e7-b0af-492a-9279-e7561c7e4f71",
+        "quantity": 76786,
+        "created_at": "2023-08-28T07:58:40.285Z",
+        "updated_at": "2023-08-28T14:14:41.900Z",
+        "cart_id": "1b641af4-e79f-4d9a-b86b-b00b6fddd138",
+        "product_id": "1462aa5a-ee4d-4de3-906a-c9d2c590515c"
+      },
+      {
+        "id": "dea531d5-fc32-456c-b856-bb638fe4ba39",
+        "quantity": 65190,
+        "created_at": "2023-08-28T16:07:58.633Z",
+        "updated_at": "2023-08-29T05:46:46.874Z",
+        "cart_id": "ed131da5-3e5c-4c76-ab79-871fdee96066",
+        "product_id": "1462aa5a-ee4d-4de3-906a-c9d2c590515c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2182079-cf63-455c-ab16-e5552ee2e47f",
+        "email": "Faye_Welch@yahoo.com",
+        "firstName": "Claire",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71698100",
+        "tenantId": null
+      },
+      {
+        "reference": "126d2af6-0f7b-4fb4-a6ca-b38146785c0f",
+        "email": "Bell.Heathcote@gmail.com",
+        "firstName": "Minnie",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/890.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "56fc7bf9-d949-48d3-9c41-83556b2daa0e",
+        "email": "Abigail68@yahoo.com",
+        "firstName": "Sylvan",
+        "lastName": "Lynch-Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/440.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f50cf34-4337-4770-8ba8-8f764b6db5cc",
+        "email": "Crawford_Watsica67@yahoo.com",
+        "firstName": "Alec",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/680.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "820df09f-cd90-48b1-ad16-e6a9e24bfee8",
+        "email": "Penelope_Hilpert69@yahoo.com",
+        "firstName": "Davin",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94199490",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "bce0a02f-adb9-411e-9202-07ef0f87374c",
+        "name": "Classic Denim Jeans",
+        "brand": "Levi's",
+        "price": 72061,
+        "size": "S",
+        "color": "Blue",
+        "created_at": "2023-08-28T19:50:49.843Z",
+        "updated_at": "2023-08-28T15:05:32.354Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "26ff3e07-a185-4b1b-a830-1df5f0ab0860",
+        "name": "Elegant Evening Dress",
+        "brand": "Gucci",
+        "price": 44517,
+        "size": "M",
+        "color": "Black",
+        "created_at": "2023-08-28T16:45:54.440Z",
+        "updated_at": "2023-08-28T15:42:52.425Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "9e7a778a-b285-46e2-9d92-0d2d624f26fb",
+        "name": "Wireless Bluetooth Headphones",
+        "brand": "Sony",
+        "price": 69530,
+        "size": "L",
+        "color": "Red",
+        "created_at": "2023-08-28T19:39:16.418Z",
+        "updated_at": "2023-08-28T22:51:33.320Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "320d833c-0feb-4b93-a00d-a5ab3252f8c7",
+        "name": "Organic Coconut Oil",
+        "brand": "Nature's Bounty",
+        "price": 31087,
+        "size": "XL",
+        "color": "Green",
+        "created_at": "2023-08-28T18:33:45.704Z",
+        "updated_at": "2023-08-29T00:09:04.245Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "08d9be4b-0ac9-484b-a1fe-6c0ea6ee18c5",
+        "name": "Professional Tennis Racket",
+        "brand": "Wilson",
+        "price": 7932,
+        "size": "XXL",
+        "color": "White",
+        "created_at": "2023-08-28T12:18:16.215Z",
+        "updated_at": "2023-08-28T18:04:46.408Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "ee88ab14-2b46-4e4b-8f81-39162dd64408",
+        "name": "Summer Sale",
+        "start_date": "2023-08-28T12:46:27.814Z",
+        "end_date": "2023-08-28T23:56:05.077Z",
+        "discount_percentage": 39390,
+        "created_at": "2023-08-29T02:15:56.255Z",
+        "updated_at": "2023-08-28T19:59:49.768Z",
+        "product_id": "9e7a778a-b285-46e2-9d92-0d2d624f26fb"
+      },
+      {
+        "id": "592555dd-23f0-4813-8122-b04b4070092f",
+        "name": "Holiday Extravaganza",
+        "start_date": "2023-08-28T11:41:12.020Z",
+        "end_date": "2023-08-28T21:15:27.990Z",
+        "discount_percentage": 82671,
+        "created_at": "2023-08-28T20:00:51.360Z",
+        "updated_at": "2023-08-28T16:10:06.425Z",
+        "product_id": "320d833c-0feb-4b93-a00d-a5ab3252f8c7"
+      },
+      {
+        "id": "4b5add85-2630-48d0-b8ed-2a76a82ac1b4",
+        "name": "End of Season Clearance",
+        "start_date": "2023-08-28T22:19:15.882Z",
+        "end_date": "2023-08-28T09:32:01.565Z",
+        "discount_percentage": 57711,
+        "created_at": "2023-08-29T05:04:27.847Z",
+        "updated_at": "2023-08-28T16:42:52.836Z",
+        "product_id": "08d9be4b-0ac9-484b-a1fe-6c0ea6ee18c5"
+      },
+      {
+        "id": "9aca5703-f128-4ea6-aaa4-828f40a9238e",
+        "name": "Black Friday Blowout",
+        "start_date": "2023-08-28T12:54:20.043Z",
+        "end_date": "2023-08-28T19:01:50.078Z",
+        "discount_percentage": 5481,
+        "created_at": "2023-08-28T21:21:20.717Z",
+        "updated_at": "2023-08-28T13:16:16.624Z",
+        "product_id": "26ff3e07-a185-4b1b-a830-1df5f0ab0860"
+      },
+      {
+        "id": "233922b7-94f5-42b5-8d9f-e21ae7f02da3",
+        "name": "Spring Fling",
+        "start_date": "2023-08-29T02:39:11.868Z",
+        "end_date": "2023-08-28T15:32:12.910Z",
+        "discount_percentage": 19801,
+        "created_at": "2023-08-28T07:59:26.503Z",
+        "updated_at": "2023-08-28T18:33:09.551Z",
+        "product_id": "08d9be4b-0ac9-484b-a1fe-6c0ea6ee18c5"
+      }
+    ],
+    "cart": [
+      {
+        "id": "2e80b169-f094-45c6-8932-37212079c82d",
+        "created_at": "2023-08-28T21:25:11.699Z",
+        "updated_at": "2023-08-28T13:53:01.554Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a273e77-796e-49d6-ac2e-432bcd8d9f1a",
+        "created_at": "2023-08-29T03:47:47.871Z",
+        "updated_at": "2023-08-28T09:47:48.218Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "555d5cd4-7025-4f1d-842b-b4b653be0cc5",
+        "created_at": "2023-08-28T20:35:58.963Z",
+        "updated_at": "2023-08-29T02:14:43.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6d2e07f-b1d3-4cb2-aa19-1c29997527f7",
+        "created_at": "2023-08-28T09:34:25.195Z",
+        "updated_at": "2023-08-29T04:33:52.244Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "767fe782-18d0-40e7-aed3-3880b07b6456",
+        "created_at": "2023-08-28T19:09:58.168Z",
+        "updated_at": "2023-08-28T11:48:16.268Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "cca58661-ea57-4427-abee-bf60f2c2c587",
+        "quantity": 43131,
+        "created_at": "2023-08-28T19:34:39.134Z",
+        "updated_at": "2023-08-28T14:40:33.426Z",
+        "cart_id": "0a273e77-796e-49d6-ac2e-432bcd8d9f1a",
+        "product_id": "9e7a778a-b285-46e2-9d92-0d2d624f26fb"
+      },
+      {
+        "id": "0e701188-e6b3-4553-80aa-fd6e9a19e930",
+        "quantity": 3333,
+        "created_at": "2023-08-28T13:55:26.435Z",
+        "updated_at": "2023-08-28T06:24:21.703Z",
+        "cart_id": "0a273e77-796e-49d6-ac2e-432bcd8d9f1a",
+        "product_id": "26ff3e07-a185-4b1b-a830-1df5f0ab0860"
+      },
+      {
+        "id": "67e179be-879e-46d3-9b4c-9ab278ab39bd",
+        "quantity": 16745,
+        "created_at": "2023-08-29T00:32:32.148Z",
+        "updated_at": "2023-08-28T15:00:31.269Z",
+        "cart_id": "767fe782-18d0-40e7-aed3-3880b07b6456",
+        "product_id": "320d833c-0feb-4b93-a00d-a5ab3252f8c7"
+      },
+      {
+        "id": "de63a12a-59b6-4f21-af97-3ea85f0da8c2",
+        "quantity": 19321,
+        "created_at": "2023-08-29T03:41:33.986Z",
+        "updated_at": "2023-08-28T08:44:43.717Z",
+        "cart_id": "555d5cd4-7025-4f1d-842b-b4b653be0cc5",
+        "product_id": "26ff3e07-a185-4b1b-a830-1df5f0ab0860"
+      },
+      {
+        "id": "8b339f96-3631-46a0-9d5f-8e81181c92f1",
+        "quantity": 47807,
+        "created_at": "2023-08-28T22:45:28.562Z",
+        "updated_at": "2023-08-28T20:29:16.354Z",
+        "cart_id": "b6d2e07f-b1d3-4cb2-aa19-1c29997527f7",
+        "product_id": "26ff3e07-a185-4b1b-a830-1df5f0ab0860"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "867c2126-1c59-43e4-951c-692b9b2472f7",
+        "email": "Issac_Shanahan89@gmail.com",
+        "firstName": "June",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6104007",
+        "tenantId": null
+      },
+      {
+        "reference": "519095f6-6db0-4e5b-8880-362f500612a2",
+        "email": "Shaina.Volkman@hotmail.com",
+        "firstName": "Ona",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1201.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ad6f900-73ba-4378-b4c3-f5fb40a09262",
+        "email": "Brad_Schneider@hotmail.com",
+        "firstName": "Horace",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42f4350b-4030-4b96-82d6-c7818617c352",
+        "email": "Laurie_Green99@yahoo.com",
+        "firstName": "Ramona",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c406eb61-4690-4bea-995b-a8c1698276fd",
+        "email": "Carley.Cummerata@yahoo.com",
+        "firstName": "Wilhelm",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/270.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "faf47541-cfa7-4382-afb0-c605abed55d9",
+        "name": "Classic Black Dress",
+        "brand": "Fashionista",
+        "price": 12062,
+        "size": "S",
+        "color": "Black",
+        "created_at": "2023-08-28T20:23:05.505Z",
+        "updated_at": "2023-08-28T13:39:15.371Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "a6e8812c-e842-4c17-ad2d-46060eae0215",
+        "name": "Leather Handbag",
+        "brand": "Luxury Bags",
+        "price": 79422,
+        "size": "M",
+        "color": "Brown",
+        "created_at": "2023-08-28T16:39:51.758Z",
+        "updated_at": "2023-08-28T08:15:33.387Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "7b580053-0524-4929-8127-c9be06628228",
+        "name": "Cozy Throw Blanket",
+        "brand": "Comfort Zone",
+        "price": 62459,
+        "size": "L",
+        "color": "Gray",
+        "created_at": "2023-08-28T15:22:34.262Z",
+        "updated_at": "2023-08-28T21:14:02.187Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "188408b8-3e96-4a55-b57a-90b5bb880a56",
+        "name": "Running Shoes",
+        "brand": "Fit Feet",
+        "price": 46853,
+        "size": "XL",
+        "color": "Blue",
+        "created_at": "2023-08-29T00:56:52.320Z",
+        "updated_at": "2023-08-28T21:47:15.719Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "a208b182-8568-4984-ad31-97411ad224ef",
+        "name": "Smartphone",
+        "brand": "TechGenius",
+        "price": 25420,
+        "size": "XXL",
+        "color": "Red",
+        "created_at": "2023-08-28T19:54:13.235Z",
+        "updated_at": "2023-08-29T05:08:48.587Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "bf45ff93-d74b-4e79-a889-16a7a8188157",
+        "name": "Summer Sale",
+        "start_date": "2023-08-28T23:05:56.951Z",
+        "end_date": "2023-08-28T12:35:49.706Z",
+        "discount_percentage": 173,
+        "created_at": "2023-08-28T17:35:04.097Z",
+        "updated_at": "2023-08-28T18:37:35.374Z",
+        "product_id": "7b580053-0524-4929-8127-c9be06628228"
+      },
+      {
+        "id": "8958f298-436a-4e86-81c9-9c8e555b909a",
+        "name": "Holiday Discount",
+        "start_date": "2023-08-29T02:00:01.160Z",
+        "end_date": "2023-08-28T12:31:19.204Z",
+        "discount_percentage": 26474,
+        "created_at": "2023-08-28T09:38:29.245Z",
+        "updated_at": "2023-08-28T13:01:08.972Z",
+        "product_id": "a6e8812c-e842-4c17-ad2d-46060eae0215"
+      },
+      {
+        "id": "866a147b-2e11-4ab0-8e7a-6440056cbb0a",
+        "name": "End of Season Clearance",
+        "start_date": "2023-08-28T15:30:20.405Z",
+        "end_date": "2023-08-29T03:28:18.522Z",
+        "discount_percentage": 75327,
+        "created_at": "2023-08-29T03:12:48.831Z",
+        "updated_at": "2023-08-28T11:31:13.349Z",
+        "product_id": "faf47541-cfa7-4382-afb0-c605abed55d9"
+      },
+      {
+        "id": "038665d0-0e87-4fb5-8ed3-b478bf40dba1",
+        "name": "Black Friday Sale",
+        "start_date": "2023-08-29T03:26:01.553Z",
+        "end_date": "2023-08-29T04:25:02.996Z",
+        "discount_percentage": 81163,
+        "created_at": "2023-08-28T18:32:57.722Z",
+        "updated_at": "2023-08-29T04:33:04.635Z",
+        "product_id": "faf47541-cfa7-4382-afb0-c605abed55d9"
+      },
+      {
+        "id": "9210829f-d17e-4f99-b317-7084cffe2503",
+        "name": "New Year's Special",
+        "start_date": "2023-08-28T21:34:37.368Z",
+        "end_date": "2023-08-28T17:06:43.711Z",
+        "discount_percentage": 45483,
+        "created_at": "2023-08-28T13:53:16.530Z",
+        "updated_at": "2023-08-28T10:04:05.232Z",
+        "product_id": "a6e8812c-e842-4c17-ad2d-46060eae0215"
+      }
+    ],
+    "cart": [
+      {
+        "id": "a77b82a9-7a0a-49e8-adfe-13d4fadf7a85",
+        "created_at": "2023-08-28T23:06:15.191Z",
+        "updated_at": "2023-08-29T00:30:55.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc4953c6-a26c-4554-a7f9-88f65131f62d",
+        "created_at": "2023-08-28T16:50:01.322Z",
+        "updated_at": "2023-08-28T16:43:38.411Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33272421-79ff-41d3-9d4d-2623f273d135",
+        "created_at": "2023-08-28T06:56:58.224Z",
+        "updated_at": "2023-08-28T07:16:36.195Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5086ea9b-58a0-426a-8616-4cca9bfe8255",
+        "created_at": "2023-08-29T05:31:48.168Z",
+        "updated_at": "2023-08-28T08:50:44.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "901e57cc-303e-4b74-a2dc-e1e217b11592",
+        "created_at": "2023-08-29T05:27:09.110Z",
+        "updated_at": "2023-08-29T04:57:05.717Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "d706ab20-1972-4447-8ef5-52d9109ffa1b",
+        "quantity": 85213,
+        "created_at": "2023-08-28T11:12:53.189Z",
+        "updated_at": "2023-08-28T08:45:10.039Z",
+        "cart_id": "bc4953c6-a26c-4554-a7f9-88f65131f62d",
+        "product_id": "188408b8-3e96-4a55-b57a-90b5bb880a56"
+      },
+      {
+        "id": "f0141cfa-7eb0-4adb-bfe6-3bb3f8d9e936",
+        "quantity": 26622,
+        "created_at": "2023-08-28T15:52:30.248Z",
+        "updated_at": "2023-08-28T20:05:33.603Z",
+        "cart_id": "901e57cc-303e-4b74-a2dc-e1e217b11592",
+        "product_id": "188408b8-3e96-4a55-b57a-90b5bb880a56"
+      },
+      {
+        "id": "549cb850-4666-4c8e-80e2-6d8ec66cd70d",
+        "quantity": 31691,
+        "created_at": "2023-08-28T17:26:39.125Z",
+        "updated_at": "2023-08-28T09:49:24.823Z",
+        "cart_id": "bc4953c6-a26c-4554-a7f9-88f65131f62d",
+        "product_id": "7b580053-0524-4929-8127-c9be06628228"
+      },
+      {
+        "id": "ade88f78-d1a2-498b-8441-6d773336d8c4",
+        "quantity": 31500,
+        "created_at": "2023-08-28T22:02:05.763Z",
+        "updated_at": "2023-08-28T06:42:04.730Z",
+        "cart_id": "5086ea9b-58a0-426a-8616-4cca9bfe8255",
+        "product_id": "188408b8-3e96-4a55-b57a-90b5bb880a56"
+      },
+      {
+        "id": "930cb7e7-14cb-45f9-852c-1919e0657ca9",
+        "quantity": 71969,
+        "created_at": "2023-08-29T04:18:37.108Z",
+        "updated_at": "2023-08-28T21:03:25.620Z",
+        "cart_id": "33272421-79ff-41d3-9d4d-2623f273d135",
+        "product_id": "188408b8-3e96-4a55-b57a-90b5bb880a56"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9b1dfd38-f66e-4588-9189-d255304aeba1",
+        "email": "Geovanny16@hotmail.com",
+        "firstName": "Willis",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/45.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52dced23-90b9-49e8-9390-9852bf57b9be",
+        "email": "Gideon66@hotmail.com",
+        "firstName": "Jameson",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4713976-c924-4e50-bb66-5d1a91f1d815",
+        "email": "Alison.Schinner39@hotmail.com",
+        "firstName": "Ofelia",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/840.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95e1ea8e-c664-4dcd-902e-93bbd3922549",
+        "email": "Thora19@hotmail.com",
+        "firstName": "Donnell",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97842664",
+        "tenantId": null
+      },
+      {
+        "reference": "61e0d5f4-b588-40c4-b70c-8496f03eb944",
+        "email": "Vanessa_Torphy@hotmail.com",
+        "firstName": "Lori",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37765083",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "be651789-4586-4cbf-a23f-de7f327766c2",
+        "name": "Stylish Shirt",
+        "brand": "XYZ",
+        "price": 27974,
+        "size": "S",
+        "color": "Blue",
+        "created_at": "2023-08-28T15:38:00.411Z",
+        "updated_at": "2023-08-29T03:45:56.213Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "d5c42bfa-c185-4eae-a3a9-08d358ccedb3",
+        "name": "Smartphone",
+        "brand": "ABC",
+        "price": 65172,
+        "size": "M",
+        "color": "Black",
+        "created_at": "2023-08-28T18:29:59.018Z",
+        "updated_at": "2023-08-28T15:05:35.732Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "746bf6c3-3408-46eb-8348-872fa37f1408",
+        "name": "Classic Watch",
+        "brand": "PQR",
+        "price": 79770,
+        "size": "L",
+        "color": "Red",
+        "created_at": "2023-08-29T01:43:11.194Z",
+        "updated_at": "2023-08-28T17:16:39.273Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "30daab86-44a2-4d8a-95b0-fe6ff4ea84e9",
+        "name": "Decorative Vase",
+        "brand": "LMN",
+        "price": 57563,
+        "size": "XL",
+        "color": "Green",
+        "created_at": "2023-08-28T22:45:36.391Z",
+        "updated_at": "2023-08-28T11:13:35.305Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "1406de50-bdee-48ae-83d0-14ac77c92599",
+        "name": "Fitness Equipment",
+        "brand": "DEF",
+        "price": 69781,
+        "size": "XXL",
+        "color": "Yellow",
+        "created_at": "2023-08-28T20:28:01.289Z",
+        "updated_at": "2023-08-28T21:42:48.393Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "6c0faba3-8b4d-4885-a825-aa98ab699149",
+        "name": "Summer Sale",
+        "start_date": "2023-08-28T11:41:30.163Z",
+        "end_date": "2023-08-28T20:29:36.815Z",
+        "discount_percentage": 58809,
+        "created_at": "2023-08-28T22:34:41.418Z",
+        "updated_at": "2023-08-28T14:09:05.124Z",
+        "product_id": "d5c42bfa-c185-4eae-a3a9-08d358ccedb3"
+      },
+      {
+        "id": "6f519d7e-4476-4c98-a252-362860bf7c09",
+        "name": "Holiday Sale",
+        "start_date": "2023-08-29T02:48:55.307Z",
+        "end_date": "2023-08-28T17:02:41.154Z",
+        "discount_percentage": 46232,
+        "created_at": "2023-08-29T04:22:23.893Z",
+        "updated_at": "2023-08-28T20:33:20.160Z",
+        "product_id": "30daab86-44a2-4d8a-95b0-fe6ff4ea84e9"
+      },
+      {
+        "id": "33634b31-0844-4d02-8275-d62a7e267dc2",
+        "name": "Clearance Sale",
+        "start_date": "2023-08-28T10:29:46.982Z",
+        "end_date": "2023-08-28T09:12:44.898Z",
+        "discount_percentage": 41918,
+        "created_at": "2023-08-28T09:16:04.785Z",
+        "updated_at": "2023-08-28T06:38:49.090Z",
+        "product_id": "30daab86-44a2-4d8a-95b0-fe6ff4ea84e9"
+      },
+      {
+        "id": "0fadbb95-b0f4-47fb-a006-100361c39923",
+        "name": "End of Season Sale",
+        "start_date": "2023-08-28T20:42:55.099Z",
+        "end_date": "2023-08-28T07:54:29.367Z",
+        "discount_percentage": 30861,
+        "created_at": "2023-08-28T13:48:48.935Z",
+        "updated_at": "2023-08-28T08:18:43.584Z",
+        "product_id": "d5c42bfa-c185-4eae-a3a9-08d358ccedb3"
+      },
+      {
+        "id": "c5d6ba9e-ccf7-4004-b1bb-e4b2476db3f6",
+        "name": "Black Friday Sale",
+        "start_date": "2023-08-28T09:24:28.195Z",
+        "end_date": "2023-08-28T12:37:27.706Z",
+        "discount_percentage": 30062,
+        "created_at": "2023-08-28T16:50:39.549Z",
+        "updated_at": "2023-08-29T01:36:16.169Z",
+        "product_id": "30daab86-44a2-4d8a-95b0-fe6ff4ea84e9"
+      }
+    ],
+    "cart": [
+      {
+        "id": "f9d34ec6-3d77-4e31-a296-cd7b261041e9",
+        "created_at": "2023-08-28T16:53:34.488Z",
+        "updated_at": "2023-08-28T08:12:38.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a16041e0-1045-4a87-9146-c69f43b97cca",
+        "created_at": "2023-08-28T08:31:55.212Z",
+        "updated_at": "2023-08-29T01:36:24.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52c105bb-0cc4-4ad3-a4ec-5c4b2ccfa94b",
+        "created_at": "2023-08-28T21:57:17.593Z",
+        "updated_at": "2023-08-28T13:00:38.160Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cec8916-88c0-4792-b36c-0d5d63451f95",
+        "created_at": "2023-08-28T11:43:11.171Z",
+        "updated_at": "2023-08-28T20:09:05.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31f92707-7dc4-4927-b9fe-4b56a8e61c00",
+        "created_at": "2023-08-28T09:42:08.077Z",
+        "updated_at": "2023-08-29T03:00:29.485Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "73d0f20f-31f3-4c43-9739-83cf81892ce9",
+        "quantity": 16100,
+        "created_at": "2023-08-28T13:44:44.939Z",
+        "updated_at": "2023-08-28T13:05:40.426Z",
+        "cart_id": "a16041e0-1045-4a87-9146-c69f43b97cca",
+        "product_id": "30daab86-44a2-4d8a-95b0-fe6ff4ea84e9"
+      },
+      {
+        "id": "d218076b-4bbd-4d74-83bd-56cfeb7d772c",
+        "quantity": 29536,
+        "created_at": "2023-08-28T20:21:58.845Z",
+        "updated_at": "2023-08-29T02:19:11.226Z",
+        "cart_id": "31f92707-7dc4-4927-b9fe-4b56a8e61c00",
+        "product_id": "746bf6c3-3408-46eb-8348-872fa37f1408"
+      },
+      {
+        "id": "fa241e0f-5b72-46b8-a638-9a0dbb5a2109",
+        "quantity": 82519,
+        "created_at": "2023-08-28T15:23:43.448Z",
+        "updated_at": "2023-08-29T05:08:26.103Z",
+        "cart_id": "a16041e0-1045-4a87-9146-c69f43b97cca",
+        "product_id": "be651789-4586-4cbf-a23f-de7f327766c2"
+      },
+      {
+        "id": "dd87738a-4791-4c34-b5e2-1fd8f16be045",
+        "quantity": 86762,
+        "created_at": "2023-08-28T12:00:11.105Z",
+        "updated_at": "2023-08-29T02:04:45.814Z",
+        "cart_id": "52c105bb-0cc4-4ad3-a4ec-5c4b2ccfa94b",
+        "product_id": "d5c42bfa-c185-4eae-a3a9-08d358ccedb3"
+      },
+      {
+        "id": "d471f0a0-e9c2-411e-a60a-cbba022484ec",
+        "quantity": 82933,
+        "created_at": "2023-08-28T20:13:58.608Z",
+        "updated_at": "2023-08-28T18:11:08.932Z",
+        "cart_id": "31f92707-7dc4-4927-b9fe-4b56a8e61c00",
+        "product_id": "be651789-4586-4cbf-a23f-de7f327766c2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e914967-8345-43d0-8d25-bb10e0d027de",
+        "email": "Darrel.Buckridge@yahoo.com",
+        "firstName": "Jazmyne",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91454954",
+        "tenantId": null
+      },
+      {
+        "reference": "9fa0d003-ef52-4a5e-abe2-848ac50e24e2",
+        "email": "Jesus_Cruickshank@yahoo.com",
+        "firstName": "Alf",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27484845",
+        "tenantId": null
+      },
+      {
+        "reference": "43bb8267-6e10-454a-a9bd-b75a233fe11c",
+        "email": "Linwood77@hotmail.com",
+        "firstName": "Jewell",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "04594764-f3d2-4f5a-b92d-40d006f1c0a6",
+        "email": "Ashlee92@gmail.com",
+        "firstName": "Dewayne",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1245.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58da849d-4106-4ad4-abfc-11efacc8d011",
+        "email": "Toni56@hotmail.com",
+        "firstName": "Tanya",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2390671",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "b9eabb62-60a6-4b79-8cfb-51e7950fcc64",
+        "name": "Blue Jeans",
+        "brand": "Levi's",
+        "price": 31126,
+        "size": "Medium",
+        "color": "Blue",
+        "created_at": "2023-08-28T22:43:46.058Z",
+        "updated_at": "2023-08-28T22:00:43.179Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "9e47e8e9-9e69-4716-8f5e-510f42b1a2bf",
+        "name": "Espresso Machine",
+        "brand": "Breville",
+        "price": 23222,
+        "size": "Large",
+        "color": "Silver",
+        "created_at": "2023-08-28T13:31:42.022Z",
+        "updated_at": "2023-08-28T11:37:44.564Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "1fa42d09-9d20-4a88-a18d-f8566887a1bf",
+        "name": "Smartphone",
+        "brand": "Apple",
+        "price": 36869,
+        "size": "Small",
+        "color": "Black",
+        "created_at": "2023-08-28T22:20:24.508Z",
+        "updated_at": "2023-08-28T06:10:16.782Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "af26209c-715b-41b5-a078-74883b72f2a7",
+        "name": "Mystery Novel",
+        "brand": "Agatha Christie",
+        "price": 84415,
+        "size": "Extra Large",
+        "color": "Red",
+        "created_at": "2023-08-28T17:13:07.496Z",
+        "updated_at": "2023-08-29T04:24:25.445Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "0434ee06-639f-4d0c-873b-9aadef47189a",
+        "name": "Dog Food",
+        "brand": "Royal Canin",
+        "price": 10669,
+        "size": "One Size",
+        "color": "Brown",
+        "created_at": "2023-08-28T06:44:59.817Z",
+        "updated_at": "2023-08-28T12:14:45.635Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "0ec20dd1-9c05-47e6-86a4-4fc0d18f853d",
+        "name": "Summer Sale",
+        "start_date": "2023-08-29T02:23:43.138Z",
+        "end_date": "2023-08-29T00:26:39.225Z",
+        "discount_percentage": 64971,
+        "created_at": "2023-08-29T01:28:28.870Z",
+        "updated_at": "2023-08-28T13:39:00.690Z",
+        "product_id": "1fa42d09-9d20-4a88-a18d-f8566887a1bf"
+      },
+      {
+        "id": "549501d8-8275-4b33-982f-49c2bf93ab79",
+        "name": "Holiday Special",
+        "start_date": "2023-08-29T03:33:36.516Z",
+        "end_date": "2023-08-29T03:37:33.230Z",
+        "discount_percentage": 34859,
+        "created_at": "2023-08-28T21:46:25.426Z",
+        "updated_at": "2023-08-28T12:23:31.682Z",
+        "product_id": "9e47e8e9-9e69-4716-8f5e-510f42b1a2bf"
+      },
+      {
+        "id": "558e609b-d34d-4951-af12-aadcd55cabc6",
+        "name": "Clearance Event",
+        "start_date": "2023-08-28T12:47:43.968Z",
+        "end_date": "2023-08-29T01:26:53.099Z",
+        "discount_percentage": 80199,
+        "created_at": "2023-08-29T02:58:21.230Z",
+        "updated_at": "2023-08-28T13:18:01.771Z",
+        "product_id": "af26209c-715b-41b5-a078-74883b72f2a7"
+      },
+      {
+        "id": "a2046289-4e74-44b0-acb9-3d42ef3425cb",
+        "name": "Flash Sale",
+        "start_date": "2023-08-28T11:17:13.979Z",
+        "end_date": "2023-08-28T18:04:52.048Z",
+        "discount_percentage": 13674,
+        "created_at": "2023-08-28T11:39:31.170Z",
+        "updated_at": "2023-08-28T20:44:26.135Z",
+        "product_id": "af26209c-715b-41b5-a078-74883b72f2a7"
+      },
+      {
+        "id": "635ed5d9-be30-4513-9e89-1d50030f473f",
+        "name": "End of Season Sale",
+        "start_date": "2023-08-28T19:43:24.822Z",
+        "end_date": "2023-08-28T23:11:58.611Z",
+        "discount_percentage": 6959,
+        "created_at": "2023-08-28T22:02:37.134Z",
+        "updated_at": "2023-08-28T21:19:49.356Z",
+        "product_id": "9e47e8e9-9e69-4716-8f5e-510f42b1a2bf"
+      }
+    ],
+    "cart": [
+      {
+        "id": "d78aad1d-4c5e-465a-a94a-a5565b42115f",
+        "created_at": "2023-08-28T19:42:30.621Z",
+        "updated_at": "2023-08-28T11:11:00.703Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2289478-1aa8-41b5-a435-0faff5754f41",
+        "created_at": "2023-08-28T23:47:28.373Z",
+        "updated_at": "2023-08-29T03:06:00.162Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb506e08-ed58-4d3a-83aa-cc8c6a470e17",
+        "created_at": "2023-08-28T19:03:53.310Z",
+        "updated_at": "2023-08-29T00:43:42.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15948745-c6b7-4de3-9140-73ff4a983235",
+        "created_at": "2023-08-29T01:09:23.063Z",
+        "updated_at": "2023-08-28T08:10:58.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68a88150-117e-4868-b177-290a37a2324d",
+        "created_at": "2023-08-28T15:50:24.457Z",
+        "updated_at": "2023-08-28T12:05:54.354Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "cb821990-8d7b-4df3-97fb-7cc5b63ce5d2",
+        "quantity": 62721,
+        "created_at": "2023-08-28T08:41:38.730Z",
+        "updated_at": "2023-08-28T06:29:45.562Z",
+        "cart_id": "68a88150-117e-4868-b177-290a37a2324d",
+        "product_id": "9e47e8e9-9e69-4716-8f5e-510f42b1a2bf"
+      },
+      {
+        "id": "972fe904-9bfb-42ea-b4fa-64cc1050d4d7",
+        "quantity": 7641,
+        "created_at": "2023-08-28T12:08:09.953Z",
+        "updated_at": "2023-08-28T14:23:50.287Z",
+        "cart_id": "fb506e08-ed58-4d3a-83aa-cc8c6a470e17",
+        "product_id": "1fa42d09-9d20-4a88-a18d-f8566887a1bf"
+      },
+      {
+        "id": "32449ac7-6eef-4ccd-8fa3-30364008ee54",
+        "quantity": 84576,
+        "created_at": "2023-08-28T20:12:21.642Z",
+        "updated_at": "2023-08-29T01:45:05.791Z",
+        "cart_id": "15948745-c6b7-4de3-9140-73ff4a983235",
+        "product_id": "1fa42d09-9d20-4a88-a18d-f8566887a1bf"
+      },
+      {
+        "id": "862a1cda-2224-4adc-9585-1db7f03ba5ec",
+        "quantity": 40436,
+        "created_at": "2023-08-28T22:54:05.317Z",
+        "updated_at": "2023-08-28T11:13:12.020Z",
+        "cart_id": "68a88150-117e-4868-b177-290a37a2324d",
+        "product_id": "1fa42d09-9d20-4a88-a18d-f8566887a1bf"
+      },
+      {
+        "id": "8dd42393-c327-4fee-baf2-a48d41014d6d",
+        "quantity": 83421,
+        "created_at": "2023-08-28T06:45:53.612Z",
+        "updated_at": "2023-08-28T08:03:43.466Z",
+        "cart_id": "fb506e08-ed58-4d3a-83aa-cc8c6a470e17",
+        "product_id": "b9eabb62-60a6-4b79-8cfb-51e7950fcc64"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d86d286e-d1d7-4ecb-b375-1fe32adca47e",
+        "email": "Sherwood46@gmail.com",
+        "firstName": "Hilma",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/525.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bbff05a8-779f-4e52-82af-84b7b70c28b8",
+        "email": "Toney_Koelpin89@hotmail.com",
+        "firstName": "Liliana",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11544179",
+        "tenantId": null
+      },
+      {
+        "reference": "db813afd-2f81-4e5e-ac48-c93743ea769a",
+        "email": "Jess_Terry39@hotmail.com",
+        "firstName": "Rosalia",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71488068",
+        "tenantId": null
+      },
+      {
+        "reference": "02dcc73c-4876-4522-b171-e442493ac09f",
+        "email": "Brice.Lynch30@hotmail.com",
+        "firstName": "Brady",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51213349",
+        "tenantId": null
+      },
+      {
+        "reference": "9d1fbd92-6f68-4f3e-9d42-f4395fe06cfa",
+        "email": "Gunnar.Barrows-McCullough54@yahoo.com",
+        "firstName": "Una",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55193650",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "1fe54b28-7adb-4e35-9829-7ee7224b370c",
+        "name": "Classic T-Shirt",
+        "brand": "Nike",
+        "price": 71625,
+        "size": "S",
+        "color": "Red",
+        "created_at": "2023-08-28T10:48:03.285Z",
+        "updated_at": "2023-08-28T19:34:51.758Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "d76adb3b-226d-400c-a641-86dc5052b1a7",
+        "name": "Smartphone",
+        "brand": "Apple",
+        "price": 54444,
+        "size": "M",
+        "color": "Blue",
+        "created_at": "2023-08-28T20:39:20.182Z",
+        "updated_at": "2023-08-28T20:50:33.581Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "482426fa-a2eb-4be9-991a-6af9767f2754",
+        "name": "Cushion Cover",
+        "brand": "IKEA",
+        "price": 43333,
+        "size": "L",
+        "color": "Green",
+        "created_at": "2023-08-28T13:41:09.553Z",
+        "updated_at": "2023-08-29T00:45:45.592Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "5db1e1fe-952d-482a-a6d4-cdf416703cd9",
+        "name": "Running Shoes",
+        "brand": "Adidas",
+        "price": 56770,
+        "size": "XL",
+        "color": "Yellow",
+        "created_at": "2023-08-28T13:13:49.748Z",
+        "updated_at": "2023-08-28T14:07:35.878Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "68d6ebec-99ed-4040-bbb1-f259adf1c0ac",
+        "name": "Lipstick",
+        "brand": "MAC",
+        "price": 56733,
+        "size": "XXL",
+        "color": "Pink",
+        "created_at": "2023-08-28T09:10:52.701Z",
+        "updated_at": "2023-08-29T05:48:23.517Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "41a53d12-b3b4-4592-8819-12f48d8cb1dd",
+        "name": "Summer Sale",
+        "start_date": "2023-08-29T04:02:23.192Z",
+        "end_date": "2023-08-29T03:46:49.127Z",
+        "discount_percentage": 96348,
+        "created_at": "2023-08-28T21:44:17.801Z",
+        "updated_at": "2023-08-28T09:49:32.437Z",
+        "product_id": "5db1e1fe-952d-482a-a6d4-cdf416703cd9"
+      },
+      {
+        "id": "e388abb6-9766-48a2-8b23-cc78f4765175",
+        "name": "Black Friday Sale",
+        "start_date": "2023-08-28T12:17:35.710Z",
+        "end_date": "2023-08-28T19:34:24.471Z",
+        "discount_percentage": 13225,
+        "created_at": "2023-08-28T22:07:42.887Z",
+        "updated_at": "2023-08-28T21:00:58.751Z",
+        "product_id": "5db1e1fe-952d-482a-a6d4-cdf416703cd9"
+      },
+      {
+        "id": "4c256ebc-9a1f-470d-a023-42c7e4571525",
+        "name": "Spring Clearance",
+        "start_date": "2023-08-28T16:51:54.416Z",
+        "end_date": "2023-08-28T19:28:12.415Z",
+        "discount_percentage": 5849,
+        "created_at": "2023-08-29T05:04:32.560Z",
+        "updated_at": "2023-08-28T11:40:52.923Z",
+        "product_id": "482426fa-a2eb-4be9-991a-6af9767f2754"
+      },
+      {
+        "id": "1e4eb2df-da94-477d-9123-4f8a6c085d42",
+        "name": "Holiday Specials",
+        "start_date": "2023-08-28T22:59:18.793Z",
+        "end_date": "2023-08-29T02:32:51.865Z",
+        "discount_percentage": 41452,
+        "created_at": "2023-08-29T00:13:38.314Z",
+        "updated_at": "2023-08-28T19:49:07.992Z",
+        "product_id": "5db1e1fe-952d-482a-a6d4-cdf416703cd9"
+      },
+      {
+        "id": "79483229-0752-41bc-a061-b8005288dfda",
+        "name": "End of Season Sale",
+        "start_date": "2023-08-29T01:07:25.029Z",
+        "end_date": "2023-08-29T00:08:16.942Z",
+        "discount_percentage": 440,
+        "created_at": "2023-08-29T01:32:10.591Z",
+        "updated_at": "2023-08-28T10:26:53.620Z",
+        "product_id": "482426fa-a2eb-4be9-991a-6af9767f2754"
+      }
+    ],
+    "cart": [
+      {
+        "id": "46b946c2-09d7-48f8-b725-a0b36adedacb",
+        "created_at": "2023-08-28T22:30:34.038Z",
+        "updated_at": "2023-08-28T14:26:18.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c140efb-8208-4e38-a7fa-feedbbd046d8",
+        "created_at": "2023-08-28T14:27:29.671Z",
+        "updated_at": "2023-08-28T13:04:03.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb2d8902-4d59-4601-98b2-98eac41a18a6",
+        "created_at": "2023-08-29T01:34:53.733Z",
+        "updated_at": "2023-08-29T04:07:58.796Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71417c3b-b7b8-4588-9fc1-27731c88eec5",
+        "created_at": "2023-08-28T21:09:49.206Z",
+        "updated_at": "2023-08-28T19:53:25.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdff6519-c3b0-4795-b21d-42da6a3c1119",
+        "created_at": "2023-08-28T23:27:16.520Z",
+        "updated_at": "2023-08-28T20:18:07.931Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "f0bf9736-5265-4e8e-8234-2064440ea2b1",
+        "quantity": 35869,
+        "created_at": "2023-08-29T01:44:12.163Z",
+        "updated_at": "2023-08-28T23:31:44.678Z",
+        "cart_id": "71417c3b-b7b8-4588-9fc1-27731c88eec5",
+        "product_id": "d76adb3b-226d-400c-a641-86dc5052b1a7"
+      },
+      {
+        "id": "dbd1ad74-553c-442e-ba1a-4887a197fa87",
+        "quantity": 19186,
+        "created_at": "2023-08-28T13:31:54.833Z",
+        "updated_at": "2023-08-28T13:01:25.130Z",
+        "cart_id": "bdff6519-c3b0-4795-b21d-42da6a3c1119",
+        "product_id": "5db1e1fe-952d-482a-a6d4-cdf416703cd9"
+      },
+      {
+        "id": "13ecd5ec-46cb-4438-9ffd-1e1fdd21d945",
+        "quantity": 85272,
+        "created_at": "2023-08-28T18:27:30.130Z",
+        "updated_at": "2023-08-28T09:24:06.109Z",
+        "cart_id": "46b946c2-09d7-48f8-b725-a0b36adedacb",
+        "product_id": "5db1e1fe-952d-482a-a6d4-cdf416703cd9"
+      },
+      {
+        "id": "9f4204cb-08ae-4500-a4b6-bfdac4628210",
+        "quantity": 18596,
+        "created_at": "2023-08-28T10:46:43.444Z",
+        "updated_at": "2023-08-29T04:53:24.187Z",
+        "cart_id": "cb2d8902-4d59-4601-98b2-98eac41a18a6",
+        "product_id": "68d6ebec-99ed-4040-bbb1-f259adf1c0ac"
+      },
+      {
+        "id": "7bb25c86-e255-4c44-b5b9-b0ca269187f9",
+        "quantity": 17967,
+        "created_at": "2023-08-28T07:51:36.584Z",
+        "updated_at": "2023-08-28T08:58:58.718Z",
+        "cart_id": "46b946c2-09d7-48f8-b725-a0b36adedacb",
+        "product_id": "68d6ebec-99ed-4040-bbb1-f259adf1c0ac"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "53a877bb-279d-4545-be83-16d3abe06d9f",
+        "email": "Kiana49@hotmail.com",
+        "firstName": "Kattie",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/761.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "868622bc-ce27-49bc-9253-c62f6665435a",
+        "email": "Emerson_Wiegand@gmail.com",
+        "firstName": "Humberto",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49956008",
+        "tenantId": null
+      },
+      {
+        "reference": "92b247ee-77b5-47f8-8c79-b7a080e1bbe7",
+        "email": "Mayra8@hotmail.com",
+        "firstName": "Anahi",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28271985",
+        "tenantId": null
+      },
+      {
+        "reference": "cd907ef0-2b0a-467f-ac00-617c89ff6376",
+        "email": "Monica_Blanda12@gmail.com",
+        "firstName": "Wallace",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5440739",
+        "tenantId": null
+      },
+      {
+        "reference": "2ec7a5c0-8ae5-4307-83ab-ff5011dbae44",
+        "email": "Myrtis69@hotmail.com",
+        "firstName": "Kyle",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/919.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "ab9a6509-259f-4969-8af8-4d048277bb62",
+        "name": "Classic Denim Jeans",
+        "brand": "Levi's",
+        "price": 47921,
+        "size": "S",
+        "color": "Blue",
+        "created_at": "2023-08-28T22:29:29.308Z",
+        "updated_at": "2023-08-28T08:09:44.824Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "2a615d00-a26d-418d-8b88-70fcf8abcdcd",
+        "name": "Wireless Bluetooth Earphones",
+        "brand": "Sony",
+        "price": 73577,
+        "size": "M",
+        "color": "Black",
+        "created_at": "2023-08-29T05:00:34.683Z",
+        "updated_at": "2023-08-28T23:36:32.130Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "606c9ca4-89e3-430f-9c9c-4e0376a1f67d",
+        "name": "Decorative Throw Pillows",
+        "brand": "Pillow Perfect",
+        "price": 82194,
+        "size": "L",
+        "color": "Gray",
+        "created_at": "2023-08-28T22:11:08.185Z",
+        "updated_at": "2023-08-28T06:06:14.367Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "492ac0f4-fe63-4517-a769-e800b34eae74",
+        "name": "Running Shoes",
+        "brand": "Nike",
+        "price": 44586,
+        "size": "XL",
+        "color": "Red",
+        "created_at": "2023-08-28T20:12:04.488Z",
+        "updated_at": "2023-08-28T21:47:20.119Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "92974049-ada3-4011-8c9f-1a2da426c703",
+        "name": "Hydrating Facial Moisturizer",
+        "brand": "Cetaphil",
+        "price": 66464,
+        "size": "XXL",
+        "color": "White",
+        "created_at": "2023-08-29T00:38:39.339Z",
+        "updated_at": "2023-08-29T03:38:26.484Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "e83b29bf-ebb3-4c3b-930b-2d2436e3aa9f",
+        "name": "Mid-Season Clearance",
+        "start_date": "2023-08-29T05:45:27.566Z",
+        "end_date": "2023-08-28T18:00:03.840Z",
+        "discount_percentage": 11344,
+        "created_at": "2023-08-28T18:18:40.091Z",
+        "updated_at": "2023-08-29T00:10:00.282Z",
+        "product_id": "2a615d00-a26d-418d-8b88-70fcf8abcdcd"
+      },
+      {
+        "id": "fbf9b9e7-ba0b-48b2-8f02-da3a33648d71",
+        "name": "Summer Sale",
+        "start_date": "2023-08-29T03:24:42.509Z",
+        "end_date": "2023-08-28T19:08:32.547Z",
+        "discount_percentage": 18026,
+        "created_at": "2023-08-29T01:27:32.435Z",
+        "updated_at": "2023-08-28T13:32:38.886Z",
+        "product_id": "92974049-ada3-4011-8c9f-1a2da426c703"
+      },
+      {
+        "id": "1ee01aef-5e98-4c96-a884-1877cbada86f",
+        "name": "Holiday Specials",
+        "start_date": "2023-08-28T07:39:05.054Z",
+        "end_date": "2023-08-28T21:33:25.846Z",
+        "discount_percentage": 12183,
+        "created_at": "2023-08-28T15:00:10.633Z",
+        "updated_at": "2023-08-28T19:24:00.612Z",
+        "product_id": "2a615d00-a26d-418d-8b88-70fcf8abcdcd"
+      },
+      {
+        "id": "dfac0a20-933c-4580-aac6-a47b223ce83c",
+        "name": "Black Friday Deals",
+        "start_date": "2023-08-28T14:39:25.830Z",
+        "end_date": "2023-08-28T11:58:47.192Z",
+        "discount_percentage": 49399,
+        "created_at": "2023-08-28T11:02:26.489Z",
+        "updated_at": "2023-08-28T17:07:35.611Z",
+        "product_id": "92974049-ada3-4011-8c9f-1a2da426c703"
+      },
+      {
+        "id": "33570885-dcfe-4fef-a16e-0a5430081bcb",
+        "name": "End of Year Blowout",
+        "start_date": "2023-08-29T03:38:00.470Z",
+        "end_date": "2023-08-28T17:03:42.166Z",
+        "discount_percentage": 97488,
+        "created_at": "2023-08-28T18:07:45.450Z",
+        "updated_at": "2023-08-28T14:57:32.507Z",
+        "product_id": "492ac0f4-fe63-4517-a769-e800b34eae74"
+      }
+    ],
+    "cart": [
+      {
+        "id": "88abcea4-8eed-4520-a258-0b4fa03db3fc",
+        "created_at": "2023-08-28T06:15:52.382Z",
+        "updated_at": "2023-08-28T08:46:06.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd21d168-9eee-422d-9d87-87bb82624392",
+        "created_at": "2023-08-28T14:06:47.570Z",
+        "updated_at": "2023-08-28T18:45:40.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "440acfcf-3bf2-4695-98b5-befe9d413c8b",
+        "created_at": "2023-08-28T21:09:38.100Z",
+        "updated_at": "2023-08-29T02:54:14.992Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12fe9423-f700-4ba4-a2ee-18b759b26f8a",
+        "created_at": "2023-08-28T11:48:28.073Z",
+        "updated_at": "2023-08-28T09:25:52.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5783d805-debb-428e-9fdb-6606a32ec0a2",
+        "created_at": "2023-08-28T14:48:35.689Z",
+        "updated_at": "2023-08-28T12:46:13.814Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "ac4d5aed-4212-46d6-afaa-a04e8de38f76",
+        "quantity": 39337,
+        "created_at": "2023-08-29T02:12:14.066Z",
+        "updated_at": "2023-08-28T15:00:19.265Z",
+        "cart_id": "88abcea4-8eed-4520-a258-0b4fa03db3fc",
+        "product_id": "606c9ca4-89e3-430f-9c9c-4e0376a1f67d"
+      },
+      {
+        "id": "16536ec1-dd7a-458f-9b89-d2c1b27433b0",
+        "quantity": 65202,
+        "created_at": "2023-08-29T00:19:40.903Z",
+        "updated_at": "2023-08-28T20:11:44.006Z",
+        "cart_id": "fd21d168-9eee-422d-9d87-87bb82624392",
+        "product_id": "492ac0f4-fe63-4517-a769-e800b34eae74"
+      },
+      {
+        "id": "f3af4d13-35b7-4ccb-80a9-bb91089bb6c8",
+        "quantity": 24241,
+        "created_at": "2023-08-28T06:52:00.253Z",
+        "updated_at": "2023-08-28T07:10:39.739Z",
+        "cart_id": "fd21d168-9eee-422d-9d87-87bb82624392",
+        "product_id": "2a615d00-a26d-418d-8b88-70fcf8abcdcd"
+      },
+      {
+        "id": "8ffc56b0-8d68-40bf-896b-2d1a233efbb2",
+        "quantity": 56989,
+        "created_at": "2023-08-28T14:28:05.051Z",
+        "updated_at": "2023-08-28T07:50:43.322Z",
+        "cart_id": "440acfcf-3bf2-4695-98b5-befe9d413c8b",
+        "product_id": "492ac0f4-fe63-4517-a769-e800b34eae74"
+      },
+      {
+        "id": "b4a5cd30-ba6f-44d9-9daa-e66455fc01e6",
+        "quantity": 92082,
+        "created_at": "2023-08-28T14:31:30.512Z",
+        "updated_at": "2023-08-28T08:50:33.755Z",
+        "cart_id": "5783d805-debb-428e-9fdb-6606a32ec0a2",
+        "product_id": "ab9a6509-259f-4969-8af8-4d048277bb62"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "69e4e591-f4a9-423f-b302-ce52e93ef420",
+        "email": "Ricardo.Fay43@yahoo.com",
+        "firstName": "Ken",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84167067",
+        "tenantId": null
+      },
+      {
+        "reference": "23ee18f3-cca9-4569-aaef-a7be22b1004f",
+        "email": "Jordon27@hotmail.com",
+        "firstName": "Hermann",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/464.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76e270e4-ce61-4dec-b4ea-92b7e5cf8bca",
+        "email": "Jesus.Jones@gmail.com",
+        "firstName": "Whitney",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25212880",
+        "tenantId": null
+      },
+      {
+        "reference": "e8bff47f-0669-40be-bb73-257f6cc0102a",
+        "email": "Marc93@gmail.com",
+        "firstName": "Wanda",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34431258",
+        "tenantId": null
+      },
+      {
+        "reference": "eaf58d79-2c1f-4464-ab07-1afc33d2c17e",
+        "email": "Deborah_Prohaska@yahoo.com",
+        "firstName": "Sammy",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "aea24914-14e5-4708-9404-388b5b8f383a",
+        "name": "T-Shirt",
+        "brand": "Nike",
+        "price": 54519,
+        "size": "S",
+        "color": "Red",
+        "created_at": "2023-08-28T20:24:31.201Z",
+        "updated_at": "2023-08-28T17:57:40.765Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "e9532e22-ca5a-4905-ad05-2e4e9a74ecdf",
+        "name": "Smartphone",
+        "brand": "Apple",
+        "price": 86869,
+        "size": "M",
+        "color": "Blue",
+        "created_at": "2023-08-29T01:08:12.913Z",
+        "updated_at": "2023-08-29T01:32:27.118Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "f0ab523e-fa84-41ff-a839-ec4e4cce8307",
+        "name": "Cushion",
+        "brand": "IKEA",
+        "price": 9825,
+        "size": "L",
+        "color": "Green",
+        "created_at": "2023-08-28T07:38:47.482Z",
+        "updated_at": "2023-08-29T02:57:41.516Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "8347dc4f-728f-4e8a-a2c6-b1e2d0209bd9",
+        "name": "Running Shoes",
+        "brand": "Adidas",
+        "price": 28502,
+        "size": "XL",
+        "color": "Yellow",
+        "created_at": "2023-08-29T05:17:49.986Z",
+        "updated_at": "2023-08-28T19:08:59.788Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "0e9e3ee7-6241-4d3f-88b8-2e127bfc2769",
+        "name": "Lipstick",
+        "brand": "Maybelline",
+        "price": 44247,
+        "size": "XXL",
+        "color": "Pink",
+        "created_at": "2023-08-28T18:17:03.642Z",
+        "updated_at": "2023-08-29T01:29:55.370Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "7a30cd31-7003-47a9-9baf-4c3af8353b7d",
+        "name": "Summer Sale",
+        "start_date": "2023-08-29T03:47:00.703Z",
+        "end_date": "2023-08-28T18:34:31.424Z",
+        "discount_percentage": 19391,
+        "created_at": "2023-08-28T17:55:34.156Z",
+        "updated_at": "2023-08-28T08:09:03.513Z",
+        "product_id": "aea24914-14e5-4708-9404-388b5b8f383a"
+      },
+      {
+        "id": "7f80f87b-f292-410d-abe0-27345775c958",
+        "name": "Black Friday Sale",
+        "start_date": "2023-08-28T09:09:02.891Z",
+        "end_date": "2023-08-28T08:42:19.592Z",
+        "discount_percentage": 73147,
+        "created_at": "2023-08-28T23:34:31.467Z",
+        "updated_at": "2023-08-29T02:36:48.476Z",
+        "product_id": "e9532e22-ca5a-4905-ad05-2e4e9a74ecdf"
+      },
+      {
+        "id": "fcc34d20-4650-4a19-85ea-690d077422c9",
+        "name": "Cyber Monday Sale",
+        "start_date": "2023-08-29T01:53:38.888Z",
+        "end_date": "2023-08-28T21:48:35.628Z",
+        "discount_percentage": 45002,
+        "created_at": "2023-08-28T13:19:36.202Z",
+        "updated_at": "2023-08-28T11:22:34.935Z",
+        "product_id": "aea24914-14e5-4708-9404-388b5b8f383a"
+      },
+      {
+        "id": "b9fd8fe0-8285-4587-9b6f-43455d20f742",
+        "name": "End of Season Sale",
+        "start_date": "2023-08-28T12:18:25.502Z",
+        "end_date": "2023-08-28T14:27:02.224Z",
+        "discount_percentage": 16066,
+        "created_at": "2023-08-28T22:46:10.119Z",
+        "updated_at": "2023-08-29T05:38:17.073Z",
+        "product_id": "0e9e3ee7-6241-4d3f-88b8-2e127bfc2769"
+      },
+      {
+        "id": "b1a6c42f-a217-4030-a4ad-6f0d7b2883c1",
+        "name": "Christmas Sale",
+        "start_date": "2023-08-28T08:41:14.479Z",
+        "end_date": "2023-08-28T08:10:44.480Z",
+        "discount_percentage": 83867,
+        "created_at": "2023-08-29T00:31:45.455Z",
+        "updated_at": "2023-08-28T09:20:04.714Z",
+        "product_id": "aea24914-14e5-4708-9404-388b5b8f383a"
+      }
+    ],
+    "cart": [
+      {
+        "id": "9751783e-4cb2-4966-a206-9af4b7e90af3",
+        "created_at": "2023-08-28T22:19:35.980Z",
+        "updated_at": "2023-08-28T15:19:10.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a83374f-5d19-429b-a169-0af089f30031",
+        "created_at": "2023-08-28T16:44:51.471Z",
+        "updated_at": "2023-08-29T01:46:44.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23468580-9c5b-491a-a182-921f6553be78",
+        "created_at": "2023-08-29T00:44:28.406Z",
+        "updated_at": "2023-08-29T02:20:57.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a2155f8-234f-459c-9123-4faf81f2b24c",
+        "created_at": "2023-08-28T19:25:47.657Z",
+        "updated_at": "2023-08-29T05:33:04.218Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "464002f6-607b-429a-b926-bff430eb0b15",
+        "created_at": "2023-08-29T03:08:34.619Z",
+        "updated_at": "2023-08-28T13:28:30.537Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "b12517be-32dc-4877-9795-cd9d59600f85",
+        "quantity": 62036,
+        "created_at": "2023-08-28T06:13:51.598Z",
+        "updated_at": "2023-08-28T17:57:47.530Z",
+        "cart_id": "23468580-9c5b-491a-a182-921f6553be78",
+        "product_id": "8347dc4f-728f-4e8a-a2c6-b1e2d0209bd9"
+      },
+      {
+        "id": "03922946-f715-4329-bd68-5a8b4c3a8c05",
+        "quantity": 77492,
+        "created_at": "2023-08-28T13:22:34.090Z",
+        "updated_at": "2023-08-28T06:03:16.499Z",
+        "cart_id": "464002f6-607b-429a-b926-bff430eb0b15",
+        "product_id": "0e9e3ee7-6241-4d3f-88b8-2e127bfc2769"
+      },
+      {
+        "id": "f6d11eee-9436-490b-8cac-1390d69c0805",
+        "quantity": 27446,
+        "created_at": "2023-08-28T18:03:51.559Z",
+        "updated_at": "2023-08-29T04:50:12.545Z",
+        "cart_id": "5a2155f8-234f-459c-9123-4faf81f2b24c",
+        "product_id": "aea24914-14e5-4708-9404-388b5b8f383a"
+      },
+      {
+        "id": "84d7e004-e228-44ed-a08e-2efaf268663d",
+        "quantity": 21466,
+        "created_at": "2023-08-28T18:07:24.148Z",
+        "updated_at": "2023-08-28T17:54:49.587Z",
+        "cart_id": "464002f6-607b-429a-b926-bff430eb0b15",
+        "product_id": "0e9e3ee7-6241-4d3f-88b8-2e127bfc2769"
+      },
+      {
+        "id": "60ef61c1-954e-497b-8c08-a41945ff95c6",
+        "quantity": 9892,
+        "created_at": "2023-08-28T06:19:06.040Z",
+        "updated_at": "2023-08-28T19:17:32.196Z",
+        "cart_id": "464002f6-607b-429a-b926-bff430eb0b15",
+        "product_id": "aea24914-14e5-4708-9404-388b5b8f383a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "86ed7ecb-dd3b-4706-931c-a0080b3e0532",
+        "email": "Kyra_Erdman71@yahoo.com",
+        "firstName": "Brandi",
+        "lastName": "Dibbert-Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65321677",
+        "tenantId": null
+      },
+      {
+        "reference": "3b3adecb-bd10-4fb0-a538-9d5fa92e4c8f",
+        "email": "Halle_Hermiston@hotmail.com",
+        "firstName": "Alfonso",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3fa42d2d-7076-4c16-96d4-06c6e63bdc5e",
+        "email": "Rosina41@hotmail.com",
+        "firstName": "Daphne",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12b12676-6689-41a0-9324-369c810eeea6",
+        "email": "Katelynn.Strosin63@yahoo.com",
+        "firstName": "Ezekiel",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58335638",
+        "tenantId": null
+      },
+      {
+        "reference": "2f68b900-cb62-4df4-82df-546da1f2e9a7",
+        "email": "Dortha.Morissette@hotmail.com",
+        "firstName": "Serena",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/262.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "b0ae6550-4774-4ad3-9005-9d336a9d16c2",
+        "name": "Classic T-Shirt",
+        "brand": "Acme",
+        "price": 10779,
+        "size": "Small",
+        "color": "Black",
+        "created_at": "2023-08-28T18:25:43.520Z",
+        "updated_at": "2023-08-28T08:13:13.393Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "aee28d88-5db7-4688-953e-8635796b65e0",
+        "name": "Wireless Headphones",
+        "brand": "Gizmo",
+        "price": 28492,
+        "size": "Medium",
+        "color": "White",
+        "created_at": "2023-08-28T23:50:25.843Z",
+        "updated_at": "2023-08-28T07:47:05.864Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "6647e1fa-7e7c-45e9-b460-02f1d88ff63f",
+        "name": "Velvet Throw Pillow",
+        "brand": "Serenity",
+        "price": 60524,
+        "size": "Large",
+        "color": "Blue",
+        "created_at": "2023-08-28T06:48:52.633Z",
+        "updated_at": "2023-08-28T12:12:30.724Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "bc026066-4e67-46ca-b5cd-b5daaa54d83e",
+        "name": "Denim Jacket",
+        "brand": "Vogue",
+        "price": 37406,
+        "size": "XL",
+        "color": "Red",
+        "created_at": "2023-08-29T03:00:28.170Z",
+        "updated_at": "2023-08-28T21:56:09.647Z",
+        "retailer_id": "main_entity_pk"
+      },
+      {
+        "id": "994ed455-7f4b-4831-9d38-2910d69f124f",
+        "name": "Hiking Boots",
+        "brand": "Summit",
+        "price": 54389,
+        "size": "XXL",
+        "color": "Green",
+        "created_at": "2023-08-29T00:30:56.926Z",
+        "updated_at": "2023-08-28T07:53:00.219Z",
+        "retailer_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "b99813da-4273-495a-8b9a-6e40bd064c2c",
+        "name": "Summer Sale",
+        "start_date": "2023-08-28T16:08:12.274Z",
+        "end_date": "2023-08-29T00:08:33.197Z",
+        "discount_percentage": 20985,
+        "created_at": "2023-08-28T11:47:38.338Z",
+        "updated_at": "2023-08-28T22:49:35.465Z",
+        "product_id": "b0ae6550-4774-4ad3-9005-9d336a9d16c2"
+      },
+      {
+        "id": "c60d3424-a599-466e-b139-25b184d02aa7",
+        "name": "Clearance Event",
+        "start_date": "2023-08-28T11:53:56.067Z",
+        "end_date": "2023-08-29T05:38:19.018Z",
+        "discount_percentage": 88580,
+        "created_at": "2023-08-28T18:27:43.066Z",
+        "updated_at": "2023-08-28T20:31:13.634Z",
+        "product_id": "6647e1fa-7e7c-45e9-b460-02f1d88ff63f"
+      },
+      {
+        "id": "08f1da55-5a27-4f5f-a12a-f560b507b884",
+        "name": "Holiday Special",
+        "start_date": "2023-08-29T05:37:20.375Z",
+        "end_date": "2023-08-28T20:44:25.674Z",
+        "discount_percentage": 43654,
+        "created_at": "2023-08-29T03:04:37.264Z",
+        "updated_at": "2023-08-28T22:23:21.513Z",
+        "product_id": "6647e1fa-7e7c-45e9-b460-02f1d88ff63f"
+      },
+      {
+        "id": "96dbbd43-a6f9-42b8-a5cc-37d593db1c68",
+        "name": "End of Season Sale",
+        "start_date": "2023-08-28T08:36:06.991Z",
+        "end_date": "2023-08-29T02:41:41.787Z",
+        "discount_percentage": 51880,
+        "created_at": "2023-08-28T17:01:14.860Z",
+        "updated_at": "2023-08-28T15:12:06.731Z",
+        "product_id": "aee28d88-5db7-4688-953e-8635796b65e0"
+      },
+      {
+        "id": "bc95487c-b37a-4c37-9300-2c0788486b1a",
+        "name": "Flash Sale",
+        "start_date": "2023-08-28T08:49:59.381Z",
+        "end_date": "2023-08-28T18:47:08.118Z",
+        "discount_percentage": 5952,
+        "created_at": "2023-08-28T20:15:51.987Z",
+        "updated_at": "2023-08-28T23:45:56.482Z",
+        "product_id": "aee28d88-5db7-4688-953e-8635796b65e0"
+      }
+    ],
+    "cart": [
+      {
+        "id": "eba8998e-e845-4f4a-858a-01e9b0e37e91",
+        "created_at": "2023-08-28T20:48:56.369Z",
+        "updated_at": "2023-08-29T01:58:06.498Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a2c6071-bbce-4e30-a9f2-f1a20d3ea928",
+        "created_at": "2023-08-28T13:26:58.496Z",
+        "updated_at": "2023-08-28T11:57:31.195Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "613ebb97-434b-4d5b-9dd1-7f3b0326f1b1",
+        "created_at": "2023-08-28T07:53:14.322Z",
+        "updated_at": "2023-08-29T03:35:42.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fe5cf24-62e7-42d6-b9bd-6b39382ce694",
+        "created_at": "2023-08-28T19:25:30.448Z",
+        "updated_at": "2023-08-29T03:15:25.575Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f18bfad-ef96-4cd5-928f-850830eb7af7",
+        "created_at": "2023-08-29T02:50:23.591Z",
+        "updated_at": "2023-08-29T04:11:18.495Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "8efcd1da-5da4-454b-ad9b-d474e7d3cb24",
+        "quantity": 45379,
+        "created_at": "2023-08-29T00:54:51.974Z",
+        "updated_at": "2023-08-29T04:17:07.703Z",
+        "cart_id": "613ebb97-434b-4d5b-9dd1-7f3b0326f1b1",
+        "product_id": "994ed455-7f4b-4831-9d38-2910d69f124f"
+      },
+      {
+        "id": "68654caf-0335-4d2f-80f5-15c932d43c6d",
+        "quantity": 27081,
+        "created_at": "2023-08-28T12:26:29.312Z",
+        "updated_at": "2023-08-29T00:44:58.268Z",
+        "cart_id": "613ebb97-434b-4d5b-9dd1-7f3b0326f1b1",
+        "product_id": "aee28d88-5db7-4688-953e-8635796b65e0"
+      },
+      {
+        "id": "8637a7bc-2fb0-4cd3-8296-6fa13a691c0a",
+        "quantity": 3799,
+        "created_at": "2023-08-28T17:15:59.458Z",
+        "updated_at": "2023-08-28T17:49:42.078Z",
+        "cart_id": "5f18bfad-ef96-4cd5-928f-850830eb7af7",
+        "product_id": "994ed455-7f4b-4831-9d38-2910d69f124f"
+      },
+      {
+        "id": "810a03c6-27d0-4ff6-ad46-9d4dbfb348be",
+        "quantity": 65446,
+        "created_at": "2023-08-28T06:53:16.207Z",
+        "updated_at": "2023-08-28T06:31:09.502Z",
+        "cart_id": "3a2c6071-bbce-4e30-a9f2-f1a20d3ea928",
+        "product_id": "aee28d88-5db7-4688-953e-8635796b65e0"
+      },
+      {
+        "id": "2e2545e6-25dd-4e53-b414-a89f469e17f8",
+        "quantity": 18976,
+        "created_at": "2023-08-28T09:00:33.111Z",
+        "updated_at": "2023-08-28T06:56:32.500Z",
+        "cart_id": "5f18bfad-ef96-4cd5-928f-850830eb7af7",
+        "product_id": "b0ae6550-4774-4ad3-9005-9d336a9d16c2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dd6d78c7-e7ca-42e8-93f6-138acb3f51a3",
+        "email": "Reina.Lang85@gmail.com",
+        "firstName": "Yazmin",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16680159",
+        "tenantId": null
+      },
+      {
+        "reference": "db5fc1f3-a582-4f7a-acd5-51a3cadd4c6f",
+        "email": "Kacey75@gmail.com",
+        "firstName": "Sandrine",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31111317",
+        "tenantId": null
+      },
+      {
+        "reference": "204bfa2c-0fae-4b07-9906-cc9e28b4e09a",
+        "email": "Royal31@yahoo.com",
+        "firstName": "Demarco",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27464430",
+        "tenantId": null
+      },
+      {
+        "reference": "89ac0efd-abb5-4f86-a33d-7df94d0c0a8d",
+        "email": "Kariane15@hotmail.com",
+        "firstName": "Alfred",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fdef093-60d8-4317-b288-a41c31d4d6ca",
+        "email": "Marcus61@gmail.com",
+        "firstName": "Jerad",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98215022",
+        "tenantId": null
+      }
+    ]
+  }
+]
